@@ -8,3 +8,5 @@ Node.js starter app
 - express
 - mysql
 - nunjucks
+- swagger-autogen
+- swagger-ui-express
