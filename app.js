@@ -1,5 +1,4 @@
 let express = require('express');
-//let mysql = require('mysql');
 let nunjucks = require('nunjucks');
 
 let app = express();
