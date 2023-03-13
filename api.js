@@ -12,16 +12,7 @@ router.use((req, res, next) => {
     }
 })
 
-/**
- * @swagger
- * /:
- *   get:
- *     summary: Some description
- *     description: Optional extended description in Markdown.
- *     responses:
- *       200:
- *         description: A list of something.
- */
+
 router.get('/', (req, res) => {
     db.query('SELECT * FROM words_words', (error, results) => {
         if (error) throw error;
